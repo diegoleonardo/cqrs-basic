@@ -1,0 +1,16 @@
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\bin\Debug\netcoreapp2.0\cqrs.example.commands.deps.json
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\bin\Debug\netcoreapp2.0\cqrs.example.commands.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\bin\Debug\netcoreapp2.0\cqrs.example.commands.pdb
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.csprojResolveAssemblyReference.cache
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.csproj.CoreCompileInputs.cache
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.AssemblyInfoInputs.cache
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.AssemblyInfo.cs
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.pdb
+E:\Diego\Github\cqrs-basic\cqrs.example.commands\bin\Debug\netcoreapp2.0\cqrs.example.commands.deps.json
+E:\Diego\Github\cqrs-basic\cqrs.example.commands\bin\Debug\netcoreapp2.0\cqrs.example.commands.dll
+E:\Diego\Github\cqrs-basic\cqrs.example.commands\bin\Debug\netcoreapp2.0\cqrs.example.commands.pdb
+E:\Diego\Github\cqrs-basic\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.csprojResolveAssemblyReference.cache
+E:\Diego\Github\cqrs-basic\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.AssemblyInfo.cs
+E:\Diego\Github\cqrs-basic\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.dll
+E:\Diego\Github\cqrs-basic\cqrs.example.commands\obj\Debug\netcoreapp2.0\cqrs.example.commands.pdb

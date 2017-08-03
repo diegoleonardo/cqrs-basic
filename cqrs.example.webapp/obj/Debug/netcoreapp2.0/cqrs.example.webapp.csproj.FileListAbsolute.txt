@@ -1,0 +1,23 @@
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.commands.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.queries.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.csprojResolveAssemblyReference.cache
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.csproj.CoreCompileInputs.cache
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.AssemblyInfoInputs.cache
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.AssemblyInfo.cs
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\x86\e_sqlite3.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\x64\e_sqlite3.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.deps.json
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.runtimeconfig.json
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.runtimeconfig.dev.json
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.pdb
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.commands.pdb
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.queries.pdb
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.dll
+C:\Users\Diego Santos\source\repos\CQRS_EXAMPLE_SOLUTION\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.pdb
+E:\Diego\Github\cqrs-basic\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.deps.json
+E:\Diego\Github\cqrs-basic\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.runtimeconfig.json
+E:\Diego\Github\cqrs-basic\cqrs.example.webapp\bin\Debug\netcoreapp2.0\cqrs.example.webapp.runtimeconfig.dev.json
+E:\Diego\Github\cqrs-basic\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.csprojResolveAssemblyReference.cache
+E:\Diego\Github\cqrs-basic\cqrs.example.webapp\obj\Debug\netcoreapp2.0\cqrs.example.webapp.AssemblyInfo.cs
