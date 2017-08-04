@@ -1,0 +1,9 @@
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\bin\Debug\netcoreapp2.0\simple_cqrs.commands.deps.json
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\bin\Debug\netcoreapp2.0\simple_cqrs.commands.dll
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\bin\Debug\netcoreapp2.0\simple_cqrs.commands.pdb
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\obj\Debug\netcoreapp2.0\simple_cqrs.commands.csprojResolveAssemblyReference.cache
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\obj\Debug\netcoreapp2.0\simple_cqrs.commands.csproj.CoreCompileInputs.cache
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\obj\Debug\netcoreapp2.0\simple_cqrs.commands.AssemblyInfoInputs.cache
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\obj\Debug\netcoreapp2.0\simple_cqrs.commands.AssemblyInfo.cs
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\obj\Debug\netcoreapp2.0\simple_cqrs.commands.dll
+E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.commands\obj\Debug\netcoreapp2.0\simple_cqrs.commands.pdb
