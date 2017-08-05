@@ -1,6 +1,6 @@
 ﻿using simple.cqrs.commands.Interfaces;
 
-namespace simple.cqrs.commands.Implementações.Histories
+namespace simple.cqrs.commands.Implementation.Histories
 {
     public class InsertPersonHistoryCommandHandler : ICommandHandler<InsertPersonHistoryCommand>
     {

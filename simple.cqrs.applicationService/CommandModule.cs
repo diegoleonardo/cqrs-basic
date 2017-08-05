@@ -1,10 +1,10 @@
 ﻿using Ninject;
 using Ninject.Modules;
-using simple.cqrs.commands.Implementações;
-using simple.cqrs.commands.Implementações.Histories;
-using simple.cqrs.commands.Implementações.Logs;
-using simple.cqrs.commands.Implementações.Persons;
-using simple.cqrs.commands.Implementações.Schedulers;
+using simple.cqrs.commands.Implementation;
+using simple.cqrs.commands.Implementation.Histories;
+using simple.cqrs.commands.Implementation.Logs;
+using simple.cqrs.commands.Implementation.Persons;
+using simple.cqrs.commands.Implementation.Schedulers;
 using simple.cqrs.commands.Interfaces;
 
 namespace simple.cqrs.applicationService

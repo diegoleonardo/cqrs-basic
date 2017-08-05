@@ -1,4 +1,4 @@
-﻿namespace simple.cqrs.commands.Implementações.Persons
+﻿namespace simple.cqrs.commands.Implementation.Persons
 {
     public class InsertPersonCommand : PersonCommand
     {

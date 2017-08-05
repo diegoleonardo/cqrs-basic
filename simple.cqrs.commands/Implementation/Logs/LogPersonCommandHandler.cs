@@ -1,6 +1,6 @@
 ﻿using simple.cqrs.commands.Interfaces;
 
-namespace simple.cqrs.commands.Implementações.Logs
+namespace simple.cqrs.commands.Implementation.Logs
 {
     public class LogPersonCommandHandler : ICommandHandler<LogPersonCommand>
     {

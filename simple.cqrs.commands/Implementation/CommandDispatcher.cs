@@ -2,7 +2,7 @@
 using simple.cqrs.commands.Interfaces;
 using System;
 
-namespace simple.cqrs.commands.Implementações
+namespace simple.cqrs.commands.Implementation
 {
     public class CommandDispatcher : ICommandDispatcher
     {

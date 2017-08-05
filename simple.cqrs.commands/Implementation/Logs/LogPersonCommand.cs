@@ -1,7 +1,7 @@
 ﻿using simple.cqrs.commands.Interfaces;
 using System;
 
-namespace simple.cqrs.commands.Implementações.Logs
+namespace simple.cqrs.commands.Implementation.Logs
 {
     public enum TypeOfLog
     {

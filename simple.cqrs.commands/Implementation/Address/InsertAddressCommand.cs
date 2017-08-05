@@ -1,6 +1,6 @@
 ﻿using simple.cqrs.commands.Interfaces;
 
-namespace simple.cqrs.commands.Implementações.Address
+namespace simple.cqrs.commands.Implementation.Address
 {
     public class InsertAddressCommand : ICommand
     {

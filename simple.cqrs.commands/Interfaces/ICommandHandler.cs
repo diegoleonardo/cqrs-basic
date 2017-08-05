@@ -1,4 +1,4 @@
-﻿using simple.cqrs.commands.Implementações;
+﻿using simple.cqrs.commands.Implementation;
 
 namespace simple.cqrs.commands.Interfaces
 {

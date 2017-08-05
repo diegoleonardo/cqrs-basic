@@ -1,8 +1,8 @@
-﻿using simple.cqrs.commands.Implementações.Persons;
+﻿using simple.cqrs.commands.Implementation.Persons;
 using simple.cqrs.commands.Interfaces;
 using System;
 
-namespace simple.cqrs.commands.Implementações.Histories
+namespace simple.cqrs.commands.Implementation.Histories
 {
     public enum TypeOfCommand
     {

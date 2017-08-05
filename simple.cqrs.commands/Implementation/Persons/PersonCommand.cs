@@ -1,7 +1,7 @@
 ﻿using simple.cqrs.commands.Interfaces;
 using System;
 
-namespace simple.cqrs.commands.Implementações.Persons
+namespace simple.cqrs.commands.Implementation.Persons
 {
     public class PersonCommand : ICommand
     {

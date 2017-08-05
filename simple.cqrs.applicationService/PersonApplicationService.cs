@@ -1,9 +1,9 @@
 ﻿using Ninject;
 using simple.cqrs.applicationService.DataTransferObjects;
-using simple.cqrs.commands.Implementações;
-using simple.cqrs.commands.Implementações.Histories;
-using simple.cqrs.commands.Implementações.Logs;
-using simple.cqrs.commands.Implementações.Persons;
+using simple.cqrs.commands.Implementation;
+using simple.cqrs.commands.Implementation.Histories;
+using simple.cqrs.commands.Implementation.Logs;
+using simple.cqrs.commands.Implementation.Persons;
 using System;
 
 namespace simple.cqrs.applicationService
