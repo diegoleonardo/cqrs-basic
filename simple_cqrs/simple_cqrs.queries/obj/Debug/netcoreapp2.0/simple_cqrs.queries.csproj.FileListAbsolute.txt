@@ -1,9 +1,0 @@
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\bin\Debug\netcoreapp2.0\simple_cqrs.queries.deps.json
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\bin\Debug\netcoreapp2.0\simple_cqrs.queries.dll
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\bin\Debug\netcoreapp2.0\simple_cqrs.queries.pdb
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\obj\Debug\netcoreapp2.0\simple_cqrs.queries.csprojResolveAssemblyReference.cache
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\obj\Debug\netcoreapp2.0\simple_cqrs.queries.csproj.CoreCompileInputs.cache
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\obj\Debug\netcoreapp2.0\simple_cqrs.queries.AssemblyInfoInputs.cache
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\obj\Debug\netcoreapp2.0\simple_cqrs.queries.AssemblyInfo.cs
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\obj\Debug\netcoreapp2.0\simple_cqrs.queries.dll
-E:\Diego\Github\cqrs-basic\simple_cqrs\simple_cqrs.queries\obj\Debug\netcoreapp2.0\simple_cqrs.queries.pdb
