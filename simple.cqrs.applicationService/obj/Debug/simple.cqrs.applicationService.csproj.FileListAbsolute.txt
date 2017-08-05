@@ -1,0 +1,18 @@
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\bin\Debug\Ninject.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\bin\Debug\Ninject.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.csprojResolveAssemblyReference.cache
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\bin\Debug\Ninject.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\bin\Debug\Ninject.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.csprojResolveAssemblyReference.cache
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.pdb

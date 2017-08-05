@@ -1,0 +1,12 @@
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.commands\bin\Debug\Ninject.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.commands\bin\Debug\Ninject.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.commands\bin\Debug\Ninject.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.commands\bin\Debug\Ninject.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.pdb

@@ -1,0 +1,158 @@
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\ApplicationInsights.config
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\csc.exe
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\csc.exe.config
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\csc.rsp
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\csi.exe
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\csi.rsp
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\System.AppContext.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\System.Collections.Immutable.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\System.IO.FileSystem.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\vbc.exe
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\vbc.exe.config
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\vbc.rsp
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\VBCSCompiler.exe
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\roslyn\VBCSCompiler.exe.config
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\simple.cqrs.webApp.dll.config
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\simple.cqrs.webApp.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\simple.cqrs.webApp.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Antlr3.Runtime.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.Web.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.WindowsServer.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.ApplicationInsights.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Newtonsoft.Json.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\simple.cqrs.applicationService.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Net.Http.Formatting.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Helpers.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Http.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Http.WebHost.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Mvc.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Optimization.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Razor.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.WebPages.Deployment.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.WebPages.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.WebPages.Razor.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\WebGrease.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Ninject.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\simple.cqrs.commands.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\simple.cqrs.applicationService.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Net.Http.Formatting.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Http.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Http.WebHost.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Helpers.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Mvc.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Optimization.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.Razor.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.WebPages.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.WebPages.Deployment.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\System.Web.WebPages.Razor.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Antlr3.Runtime.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Newtonsoft.Json.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.ApplicationInsights.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.WindowsServer.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Microsoft.AI.Web.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\Ninject.xml
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\bin\simple.cqrs.commands.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.csprojResolveAssemblyReference.cache
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\ApplicationInsights.config
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\csc.exe
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\csc.exe.config
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\csc.rsp
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\csi.exe
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\csi.rsp
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\System.AppContext.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\System.Collections.Immutable.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\System.IO.FileSystem.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\vbc.exe
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\vbc.exe.config
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\vbc.rsp
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\VBCSCompiler.exe
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\roslyn\VBCSCompiler.exe.config
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.webApp.dll.config
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.webApp.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.webApp.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Antlr3.Runtime.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.DependencyCollector.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.Web.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.WindowsServer.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.ApplicationInsights.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Newtonsoft.Json.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.applicationService.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Net.Http.Formatting.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Helpers.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Http.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Http.WebHost.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Mvc.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Optimization.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Razor.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.WebPages.Deployment.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.WebPages.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.WebPages.Razor.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\WebGrease.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Ninject.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.commands.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.applicationService.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Net.Http.Formatting.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Http.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Http.WebHost.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Helpers.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Mvc.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Optimization.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.Razor.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.WebPages.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.WebPages.Deployment.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\System.Web.WebPages.Razor.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Antlr3.Runtime.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Newtonsoft.Json.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.ApplicationInsights.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.DependencyCollector.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.WindowsServer.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Microsoft.AI.Web.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\Ninject.xml
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.commands.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.csprojResolveAssemblyReference.cache
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.pdb

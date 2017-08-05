@@ -1,0 +1,4 @@
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.pdb
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.dll
+c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.pdb
