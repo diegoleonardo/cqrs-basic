@@ -1,6 +1,6 @@
 ﻿using simple.cqrs.queries.Interfaces;
 
-namespace simple.cqrs.queries.Implementações
+namespace simple.cqrs.queries.Implementation
 {
     public class QueryDispatcher : IQueryDispatcher
     {

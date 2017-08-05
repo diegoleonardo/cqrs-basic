@@ -2,3 +2,8 @@ c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.c
 c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.pdb
 c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.dll
 c:\users\diego santos\documents\visual studio 2017\Projects\simple_cqrs\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.pdb
+E:\Diego\Github\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.csprojResolveAssemblyReference.cache
+E:\Diego\Github\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.dll
+E:\Diego\Github\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.pdb

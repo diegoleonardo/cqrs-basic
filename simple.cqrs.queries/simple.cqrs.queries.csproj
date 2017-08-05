@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementações\Query.cs" />
-    <Compile Include="Implementações\QueryDispatcher.cs" />
-    <Compile Include="Implementações\QueryHandler.cs" />
-    <Compile Include="Implementações\QueryResult.cs" />
+    <Compile Include="Implementation\Query.cs" />
+    <Compile Include="Implementation\QueryDispatcher.cs" />
+    <Compile Include="Implementation\QueryHandler.cs" />
+    <Compile Include="Implementation\QueryResult.cs" />
     <Compile Include="Interfaces\IQuery.cs" />
     <Compile Include="Interfaces\IQueryDispatcher.cs" />
     <Compile Include="Interfaces\IQueryHandler.cs" />
