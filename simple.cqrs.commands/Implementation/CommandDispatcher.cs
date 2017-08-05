@@ -14,15 +14,18 @@ namespace simple.cqrs.commands.Implementation
             {
                 throw new ArgumentNullException("kernel");
             }
-
             _kernel = kernel;
         }
 
         public CommandResult Dispatch<TParameter>(TParameter command) where TParameter : ICommand
         {
-            // Find the appropriate handler to call from those registered with Ninject based on the type parameters  
             var handler = _kernel.Get<ICommandHandler<TParameter>>();
             return handler.Execute(command);
+        }
+
+        public CommandResult Dispatch<TParameter>(ICommandHandler<TParameter> commandHandler, TParameter command) where TParameter : ICommand
+        {
+            return commandHandler.Execute(command);
         }
     }
 }
