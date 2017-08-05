@@ -13,8 +13,15 @@ namespace simple.cqrs.commands.Implementation.Histories
 
     public class InsertPersonHistoryCommand : ICommand
     {
-        public InsertPersonCommand Person { get; set; }
-        public TypeOfCommand TypeOfHistory { get; set; }
-        public DateTime DateOfCommand { get; set; }
+        public InsertPersonCommand Person { get; private set; }
+        public TypeOfCommand TypeOfHistory { get; private set; }
+        public DateTime DateOfCommand { get; private set; }
+
+        public InsertPersonHistoryCommand(InsertPersonCommand insertPersonCommand, TypeOfCommand typeOfCommand)
+        {
+            Person = insertPersonCommand;
+            TypeOfHistory = typeOfCommand;
+            DateOfCommand = DateTime.Now;
+        }
     }
 }

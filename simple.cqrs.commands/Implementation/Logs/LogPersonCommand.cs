@@ -10,8 +10,15 @@ namespace simple.cqrs.commands.Implementation.Logs
 
     public class LogPersonCommand : ICommand
     {
-        public int Id { get; set; }
-        public TypeOfLog TypeOfLog { get; set; }
-        public DateTime CreatedBy { get; set; }
+        public int Id { get; private set; }
+        public TypeOfLog TypeOfLog { get; private set; }
+        public DateTime CreatedBy { get; private set; }
+
+        public LogPersonCommand(TypeOfLog typeOfLog)
+        {
+            Id = 1;
+            TypeOfLog = typeOfLog;
+            CreatedBy = DateTime.Now;
+        }
     }
 }
