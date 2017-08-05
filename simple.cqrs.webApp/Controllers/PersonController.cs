@@ -1,4 +1,4 @@
-﻿using simple.cqrs.applicationService;
+﻿using simple.cqrs.applicationService.Services;
 using simple.cqrs.applicationService.DataTransferObjects;
 using simple.cqrs.webApp.Models;
 using System.Web.Mvc;
@@ -7,13 +7,6 @@ namespace simple.cqrs.webApp.Controllers
 {
     public class PersonController : Controller
     {
-        private readonly PersonApplicationService _personService;
-
-        public PersonController()
-        {
-            _personService = new PersonApplicationService();
-        }
-
         // GET: Person
         public ActionResult Index()
         {
@@ -29,8 +22,10 @@ namespace simple.cqrs.webApp.Controllers
         public ActionResult Create(PersonViewModel person)
         {
             PersonDTO personDTO = person;
-
-            _personService.Insert(personDTO);
+            using (var personService = new PersonApplicationService())
+            {
+                personService.Insert(personDTO);
+            }
 
             return View();
         }

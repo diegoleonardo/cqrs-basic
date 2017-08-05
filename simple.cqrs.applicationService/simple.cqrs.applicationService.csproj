@@ -43,9 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommandModule.cs" />
+    <Compile Include="Services\ApplicationServiceBase.cs" />
+    <Compile Include="CommandModules\Dispatcher\DispatcherModule.cs" />
+    <Compile Include="CommandModules\History\HistoryModule.cs" />
+    <Compile Include="CommandModules\Log\LogModule.cs" />
+    <Compile Include="CommandModules\Person\PersonModule.cs" />
+    <Compile Include="CommandModules\Scheduler\SchedulerModule.cs" />
     <Compile Include="DataTransferObjects\PersonDTO.cs" />
-    <Compile Include="PersonApplicationService.cs" />
+    <Compile Include="Services\PersonApplicationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,5 +62,6 @@
       <Name>simple.cqrs.commands</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
