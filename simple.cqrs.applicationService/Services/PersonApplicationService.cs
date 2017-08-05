@@ -1,12 +1,10 @@
-﻿using Ninject;
-using simple.cqrs.applicationService.CommandModules.History;
+﻿using simple.cqrs.applicationService.CommandModules.History;
 using simple.cqrs.applicationService.CommandModules.Log;
 using simple.cqrs.applicationService.CommandModules.Person;
 using simple.cqrs.applicationService.DataTransferObjects;
 using simple.cqrs.commands.Implementation.Histories;
 using simple.cqrs.commands.Implementation.Logs;
 using simple.cqrs.commands.Implementation.Persons;
-using simple.cqrs.commands.Interfaces;
 
 namespace simple.cqrs.applicationService.Services
 {
