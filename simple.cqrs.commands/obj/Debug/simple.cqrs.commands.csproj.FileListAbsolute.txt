@@ -10,3 +10,10 @@ E:\Diego\Github\cqrs-basic\simple.cqrs.commands\bin\Debug\Ninject.dll
 E:\Diego\Github\cqrs-basic\simple.cqrs.commands\bin\Debug\Ninject.xml
 E:\Diego\Github\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.dll
 E:\Diego\Github\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.pdb
+E:\Git\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.dll
+E:\Git\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.pdb
+E:\Git\cqrs-basic\simple.cqrs.commands\bin\Debug\Ninject.dll
+E:\Git\cqrs-basic\simple.cqrs.commands\bin\Debug\Ninject.xml
+E:\Git\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.csprojResolveAssemblyReference.cache
+E:\Git\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.dll
+E:\Git\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.pdb

@@ -16,3 +16,12 @@ E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\bin\Debug\Ninject.xml
 E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.csprojResolveAssemblyReference.cache
 E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.dll
 E:\Diego\Github\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.pdb
+E:\Git\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.dll
+E:\Git\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.pdb
+E:\Git\cqrs-basic\simple.cqrs.applicationService\bin\Debug\Ninject.dll
+E:\Git\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.dll
+E:\Git\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.pdb
+E:\Git\cqrs-basic\simple.cqrs.applicationService\bin\Debug\Ninject.xml
+E:\Git\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.csprojResolveAssemblyReference.cache
+E:\Git\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.dll
+E:\Git\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.pdb
