@@ -9,6 +9,5 @@ E:\Diego\Github\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.dll
 E:\Diego\Github\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.pdb
 E:\Git\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.dll
 E:\Git\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.pdb
-E:\Git\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.csprojResolveAssemblyReference.cache
 E:\Git\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.dll
 E:\Git\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.pdb
