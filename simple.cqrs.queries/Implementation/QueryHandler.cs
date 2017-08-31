@@ -2,11 +2,11 @@
 
 namespace simple.cqrs.queries.Implementation
 {
-    public class QueryHandler : IQueryHandler<Query, QueryResult>
+    public class QueryHandler : IQueryHandler<IQuery, QueryResult>
     {
-        public QueryResult Retrieve(Query query)
+        public QueryResult Retrieve(IQuery query)
         {
-            throw new System.NotImplementedException();
+            return new QueryResult();
         }
     }
 }

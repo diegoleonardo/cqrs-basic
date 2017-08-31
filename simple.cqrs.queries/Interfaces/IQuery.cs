@@ -2,5 +2,6 @@
 {
     public interface IQuery
     {
+        string Identificador { get; set; }
     }
 }

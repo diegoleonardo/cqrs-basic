@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple.cqrs.queries", "simple.cqrs.queries\simple.cqrs.queries.csproj", "{6F461B3C-2C6C-45B7-8D6B-202F57EF7CD4}"
 EndProject
@@ -10,6 +10,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple.cqrs.applicationService", "simple.cqrs.applicationService\simple.cqrs.applicationService.csproj", "{AEB5EC87-60FB-4900-9D7A-51FF3F85AD2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple.cqrs.webApp", "simple.cqrs.webApp\simple.cqrs.webApp.csproj", "{F0E6D9C9-C3F1-4BCC-AF06-DDFC934A044E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5EEA537-B3B7-4970-89CE-AE1116E9FD8C}"
+	ProjectSection(SolutionItems) = preProject
+		gulpfile.js = gulpfile.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple.cqrs.dependencyInjection", "simple.cqrs.dependencyInjection\simple.cqrs.dependencyInjection.csproj", "{17E744C8-1BEB-41AE-A07A-C987B6A3FBFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{F0E6D9C9-C3F1-4BCC-AF06-DDFC934A044E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0E6D9C9-C3F1-4BCC-AF06-DDFC934A044E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0E6D9C9-C3F1-4BCC-AF06-DDFC934A044E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E744C8-1BEB-41AE-A07A-C987B6A3FBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E744C8-1BEB-41AE-A07A-C987B6A3FBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E744C8-1BEB-41AE-A07A-C987B6A3FBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E744C8-1BEB-41AE-A07A-C987B6A3FBFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

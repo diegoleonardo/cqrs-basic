@@ -4,5 +4,6 @@ namespace simple.cqrs.queries.Implementation
 {
     public class Query : IQuery
     {
+        public string Identificador { get; set; }
     }
 }

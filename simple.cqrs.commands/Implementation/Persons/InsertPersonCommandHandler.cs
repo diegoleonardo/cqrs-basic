@@ -2,9 +2,9 @@
 
 namespace simple.cqrs.commands.Implementation.Persons
 {
-    public class InsertPersonCommandHandler : ICommandHandler<InsertPersonCommand>
+    public class InsertPersonCommandHandler : ICommandHandler
     {
-        public CommandResult Execute(InsertPersonCommand command)
+        public CommandResult Execute<TParameter>(TParameter command) where TParameter : ICommand
         {
             return new CommandResult()
             {

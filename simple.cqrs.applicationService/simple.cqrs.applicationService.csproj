@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,12 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Services\ApplicationServiceBase.cs" />
-    <Compile Include="CommandModules\Dispatcher\DispatcherModule.cs" />
-    <Compile Include="CommandModules\History\HistoryModule.cs" />
-    <Compile Include="CommandModules\Log\LogModule.cs" />
-    <Compile Include="CommandModules\Person\PersonModule.cs" />
-    <Compile Include="CommandModules\Scheduler\SchedulerModule.cs" />
     <Compile Include="DataTransferObjects\PersonDTO.cs" />
+    <Compile Include="Services\IPersonAplicationService.cs" />
     <Compile Include="Services\PersonApplicationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

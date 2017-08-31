@@ -10,11 +10,11 @@ namespace simple.cqrs.queries.Implementation
             _queryHandler = new QueryHandler();
         }
 
-        public TResult Dispatch<TParameter, TResult>(TParameter query)
+        public IQueryResult Dispatch<TParameter>(TParameter query)
             where TParameter : IQuery
-            where TResult : IQueryResult
         {
-            throw new System.NotImplementedException();
+            var retrieve =  _queryHandler.Retrieve(query);
+            return retrieve;
         }
     }
 }

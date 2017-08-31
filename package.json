@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp-msbuild": "^0.5.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-serve-iis-express": "^1.0.0"
+  }
+}

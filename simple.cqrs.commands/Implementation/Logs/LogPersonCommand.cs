@@ -5,7 +5,8 @@ namespace simple.cqrs.commands.Implementation.Logs
 {
     public enum TypeOfLog
     {
-        CreatePerson = 1
+        CreatePerson = 1,
+        EditPerson
     }
 
     public class LogPersonCommand : ICommand
@@ -14,10 +15,9 @@ namespace simple.cqrs.commands.Implementation.Logs
         public TypeOfLog TypeOfLog { get; private set; }
         public DateTime CreatedBy { get; private set; }
 
-        public LogPersonCommand(TypeOfLog typeOfLog)
+        public LogPersonCommand()
         {
             Id = 1;
-            TypeOfLog = typeOfLog;
             CreatedBy = DateTime.Now;
         }
     }

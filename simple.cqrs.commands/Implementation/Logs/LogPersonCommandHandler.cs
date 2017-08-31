@@ -2,9 +2,9 @@
 
 namespace simple.cqrs.commands.Implementation.Logs
 {
-    public class LogPersonCommandHandler : ICommandHandler<LogPersonCommand>
+    public class LogPersonCommandHandler : ICommandHandler
     {
-        public CommandResult Execute(LogPersonCommand command)
+        public CommandResult Execute<TParameter>(TParameter command) where TParameter : ICommand
         {
             return new CommandResult()
             {

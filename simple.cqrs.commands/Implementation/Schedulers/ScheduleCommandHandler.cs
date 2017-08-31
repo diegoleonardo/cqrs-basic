@@ -2,9 +2,9 @@
 
 namespace simple.cqrs.commands.Implementation.Schedulers
 {
-    public class ScheduleCommandHandler : ICommandHandler<InsertSchedulerCommand>
+    public class ScheduleCommandHandler : ICommandHandler
     {
-        public CommandResult Execute(InsertSchedulerCommand command)
+        public CommandResult Execute<TParameter>(TParameter command) where TParameter : ICommand
         {
             return new CommandResult()
             {

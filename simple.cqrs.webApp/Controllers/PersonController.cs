@@ -1,12 +1,22 @@
-﻿using simple.cqrs.applicationService.Services;
+﻿using System.Web.Mvc;
+using simple.cqrs.queries.Interfaces;
+using simple.cqrs.queries.Implementation;
+using simple.cqrs.applicationService.Services;
 using simple.cqrs.applicationService.DataTransferObjects;
 using simple.cqrs.webApp.Models;
-using System.Web.Mvc;
 
 namespace simple.cqrs.webApp.Controllers
 {
     public class PersonController : Controller
     {
+        private readonly IPersonAplicationService _personAppService;
+        private readonly IQueryDispatcher _queryDispatcher;
+
+        public PersonController(IPersonAplicationService personAppService, IQueryDispatcher queryDispatcher)
+        {
+            _personAppService = personAppService;
+            _queryDispatcher = queryDispatcher;
+        }
         // GET: Person
         public ActionResult Index()
         {
@@ -18,14 +28,24 @@ namespace simple.cqrs.webApp.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult Get(int id)
+        {
+            IQuery query = new Query();
+
+            query.Identificador = id.ToString();
+
+            var dispatcher = _queryDispatcher.Dispatch<IQuery>(query);
+
+            return Json(new { success = true, result = dispatcher }, JsonRequestBehavior.AllowGet);
+        }
+
         [HttpPost]
         public ActionResult Create(PersonViewModel person)
         {
             PersonDTO personDTO = person;
-            using (var personService = new PersonApplicationService())
-            {
-                personService.Insert(personDTO);
-            }
+
+            _personAppService.Insert(personDTO);
 
             return View();
         }
@@ -46,6 +66,10 @@ namespace simple.cqrs.webApp.Controllers
         [HttpPost]
         public ActionResult Edit(PersonViewModel person)
         {
+            PersonDTO personDTO = person;
+
+            _personAppService.Edit(personDTO);
+
             return View();
         }
     }

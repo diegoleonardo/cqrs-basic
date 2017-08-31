@@ -1,17 +1,25 @@
 ﻿using simple.cqrs.commands.Interfaces;
+using System;
 
 namespace simple.cqrs.commands.Implementation.Persons
 {
-    public class EditPersonCommandHandler : ICommandHandler<EditPersonCommand>
+    public class EditPersonCommandHandler : ICommandHandler
     {
-        public CommandResult Execute(EditPersonCommand command)
+        public CommandResult Execute<TParameter>(TParameter command) where TParameter : ICommand
         {
-            return new CommandResult()
+            try
             {
-                Success = true,
-                Message = "Success",
-                Data = command
-            };
+                return new CommandResult()
+                {
+                    Success = true,
+                    Message = "Success in edit person",
+                    Data = command
+                };
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
         }
     }
 }
