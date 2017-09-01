@@ -1,8 +1,8 @@
 ﻿namespace simple.cqrs.queries.Interfaces
 {
-    public interface IQueryHandler<TParameter, TResult>
-        where TResult : IQueryResult
+    public interface IQueryHandler<TResult,TParameter>
         where TParameter : IQuery
+         where TResult : IQueryResult
     {
         TResult Retrieve(TParameter query);
     }

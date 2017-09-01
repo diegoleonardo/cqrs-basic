@@ -7,9 +7,11 @@ namespace simple.cqrs.commands.Implementation.FactoryHandlers
 {
     public static class FactoryCommandHandler
     {
+
         public static ICommandHandler GetCommandHandler(ICommand command)
         {
             ICommandHandler commandHandler = null;
+
             if (command.GetType() == typeof(InsertPersonCommand))
                 commandHandler = new InsertPersonCommandHandler();
             else if (command.GetType() == typeof(EditPersonCommand))

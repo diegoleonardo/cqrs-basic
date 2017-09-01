@@ -13,6 +13,8 @@ E:\Git\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.dll
 E:\Git\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.pdb
 C:\Lab\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.dll
 C:\Lab\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.queries.pdb
+C:\Lab\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.data.storage.dll
+C:\Lab\cqrs-basic\simple.cqrs.queries\bin\Debug\simple.cqrs.data.storage.pdb
 C:\Lab\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.csprojResolveAssemblyReference.cache
 C:\Lab\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.dll
 C:\Lab\cqrs-basic\simple.cqrs.queries\obj\Debug\simple.cqrs.queries.pdb

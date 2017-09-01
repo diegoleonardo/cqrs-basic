@@ -8,6 +8,7 @@ using simple.cqrs.commands.Implementation.Logs;
 using simple.cqrs.commands.Implementation;
 using simple.cqrs.applicationService.Services;
 using Ninject;
+using simple.cqrs.queries.Base;
 
 namespace simple.cqrs.dependencyInjection
 {
@@ -18,9 +19,9 @@ namespace simple.cqrs.dependencyInjection
         {
              _kernel = new StandardKernel();
             
-            _kernel.Bind<IQuery>().To<Query>();
-            _kernel.Bind<IQueryResult>().To<QueryResult>();
-            _kernel.Bind<IQueryHandler<IQuery, QueryResult>>().To<QueryHandler>();
+            _kernel.Bind<IQuery>().To<QueryParameter>();
+            _kernel.Bind<IQueryResult>().To<FindByIdQueryResult>();
+            _kernel.Bind<IQueryHandler<IQueryResult, IQuery>>().To<PersonQueryHandler>();
             _kernel.Bind<IQueryDispatcher>().To<QueryDispatcher>();
 
             //_kernel.Bind<ICommandHandler<HistoricalPersonCommand>>().To<HistoricalPersonCommandHandler>();

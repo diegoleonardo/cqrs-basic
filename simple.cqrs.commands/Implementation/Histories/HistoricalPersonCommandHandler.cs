@@ -4,7 +4,7 @@ namespace simple.cqrs.commands.Implementation.Histories
 {
     public class HistoricalPersonCommandHandler : ICommandHandler
     {
-        public CommandResult Execute<TParameter>(TParameter command) where TParameter : ICommand
+        public CommandResult Execute(ICommand command)
         {
             return new CommandResult()
             {

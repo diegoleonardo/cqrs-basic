@@ -1,22 +1,23 @@
 ﻿using System.Web.Mvc;
+using simple.cqrs.webApp.Models;
 using simple.cqrs.queries.Interfaces;
 using simple.cqrs.queries.Implementation;
+using simple.cqrs.webApp.Controllers.Base;
 using simple.cqrs.applicationService.Services;
+using simple.cqrs.queries.Implementation.QueryResults;
 using simple.cqrs.applicationService.DataTransferObjects;
-using simple.cqrs.webApp.Models;
 
 namespace simple.cqrs.webApp.Controllers
 {
-    public class PersonController : Controller
+    public class PersonController : BaseController
     {
         private readonly IPersonAplicationService _personAppService;
-        private readonly IQueryDispatcher _queryDispatcher;
 
-        public PersonController(IPersonAplicationService personAppService, IQueryDispatcher queryDispatcher)
+        public PersonController(IPersonAplicationService personAppService, IQueryDispatcher queryDispatcher):base(queryDispatcher)
         {
             _personAppService = personAppService;
-            _queryDispatcher = queryDispatcher;
         }
+
         // GET: Person
         public ActionResult Index()
         {
@@ -31,13 +32,21 @@ namespace simple.cqrs.webApp.Controllers
         [HttpGet]
         public ActionResult Get(int id)
         {
-            IQuery query = new Query();
+            var query = new FindPersonByIdQueryParameter(id.ToString());
+            
+            var person = _queryDispatcher.Dispatch<FindByIdQueryResult, FindPersonByIdQueryParameter>(query);
 
-            query.Identificador = id.ToString();
+            return Json(new { success = true, result = person }, JsonRequestBehavior.AllowGet);
+        }
 
-            var dispatcher = _queryDispatcher.Dispatch<IQuery>(query);
+        [HttpGet]
+        public ActionResult FindByNome(string nome)
+        {
+            var query = new FindPersonByNameParameter (nome);
 
-            return Json(new { success = true, result = dispatcher }, JsonRequestBehavior.AllowGet);
+            var person = _queryDispatcher.Dispatch<FindByNamePersonQueryResult, FindPersonByNameParameter >(query);
+
+            return Json(new { success = true, result = person }, JsonRequestBehavior.AllowGet);
         }
 
         [HttpPost]
@@ -52,13 +61,11 @@ namespace simple.cqrs.webApp.Controllers
 
         public ActionResult Edit(int personId)
         {
-            PersonViewModel person = new PersonViewModel()
-            {
-                Id = 1,
-                Firstname = "Diego",
-                Lastname = "Santos",
-                Birthdate = new System.DateTime(1985, 05, 15)
-            };
+            var query = new FindPersonByIdQueryParameter(personId.ToString());
+
+            var queryResult = _queryDispatcher.Dispatch<FindByIdQueryResult, IQuery>(query);
+
+            PersonViewModel person = (PersonViewModel) queryResult;
 
             return View(person);
         }

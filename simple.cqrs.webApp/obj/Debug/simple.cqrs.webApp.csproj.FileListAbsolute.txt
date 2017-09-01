@@ -274,6 +274,7 @@ C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.commands.dll
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\Autofac.dll
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\Ninject.dll
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\SimpleInjector.Integration.Web.dll
+C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.data.storage.dll
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.applicationService.pdb
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.dependencyInjection.pdb
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.queries.pdb
@@ -303,6 +304,7 @@ C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.commands.pdb
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\Autofac.xml
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\Ninject.xml
 C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\SimpleInjector.Integration.Web.xml
+C:\Lab\cqrs-basic\simple.cqrs.webApp\bin\simple.cqrs.data.storage.pdb
 C:\Lab\cqrs-basic\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.csprojResolveAssemblyReference.cache
 C:\Lab\cqrs-basic\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.dll
 C:\Lab\cqrs-basic\simple.cqrs.webApp\obj\Debug\simple.cqrs.webApp.pdb

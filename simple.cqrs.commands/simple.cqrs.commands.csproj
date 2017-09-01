@@ -65,5 +65,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\simple.cqrs.data.storage\simple.cqrs.data.storage.csproj">
+      <Project>{ee349f9b-6fbe-4ab8-af76-e00773aba4ff}</Project>
+      <Name>simple.cqrs.data.storage</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

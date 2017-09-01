@@ -1,4 +1,5 @@
 ﻿using simple.cqrs.applicationService.DataTransferObjects;
+using simple.cqrs.queries.Implementation;
 using System;
 
 namespace simple.cqrs.webApp.Models
@@ -18,6 +19,17 @@ namespace simple.cqrs.webApp.Models
                 Firstname = person.Firstname,
                 Lastname = person.Lastname,
                 Birthdate = person.Birthdate
+            };
+        }
+
+        public static explicit operator PersonViewModel(FindByIdQueryResult queryResult)
+        {
+            return new PersonViewModel()
+            {
+                Id = queryResult.Id,
+                Firstname = queryResult.Firstname,
+                Lastname = queryResult.Lastname,
+                Birthdate = queryResult.Birthdate
             };
         }
     }

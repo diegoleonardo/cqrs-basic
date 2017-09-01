@@ -5,7 +5,7 @@ namespace simple.cqrs.commands.Implementation.Persons
 {
     public class EditPersonCommandHandler : ICommandHandler
     {
-        public CommandResult Execute<TParameter>(TParameter command) where TParameter : ICommand
+        public CommandResult Execute(ICommand command)
         {
             try
             {

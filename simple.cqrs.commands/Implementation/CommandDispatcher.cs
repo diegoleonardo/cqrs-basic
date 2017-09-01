@@ -8,7 +8,7 @@ namespace simple.cqrs.commands.Implementation
         public CommandResult Dispatch<TParameter>(TParameter command) where TParameter : ICommand
         {
             var handler = FactoryCommandHandler.GetCommandHandler(command);
-            return handler.Execute<TParameter>(command);
+            return handler.Execute(command);
         }
     }
 }

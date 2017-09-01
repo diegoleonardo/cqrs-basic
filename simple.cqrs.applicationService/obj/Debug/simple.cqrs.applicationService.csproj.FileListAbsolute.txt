@@ -28,7 +28,9 @@ E:\Git\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicati
 C:\Lab\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.dll
 C:\Lab\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.applicationService.pdb
 C:\Lab\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.dll
+C:\Lab\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.data.storage.dll
 C:\Lab\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.commands.pdb
+C:\Lab\cqrs-basic\simple.cqrs.applicationService\bin\Debug\simple.cqrs.data.storage.pdb
 C:\Lab\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.csprojResolveAssemblyReference.cache
 C:\Lab\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.dll
 C:\Lab\cqrs-basic\simple.cqrs.applicationService\obj\Debug\simple.cqrs.applicationService.pdb

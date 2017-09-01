@@ -4,17 +4,13 @@ namespace simple.cqrs.queries.Implementation
 {
     public class QueryDispatcher : IQueryDispatcher
     {
-        private readonly QueryHandler _queryHandler;
-        public QueryDispatcher()
-        {
-            _queryHandler = new QueryHandler();
-        }
-
-        public IQueryResult Dispatch<TParameter>(TParameter query)
+        public TResult Dispatch<TResult, TParameter>(TParameter query)
             where TParameter : IQuery
+            where TResult : IQueryResult
         {
-            var retrieve =  _queryHandler.Retrieve(query);
-            return retrieve;
+            var queryHandler = FactoryQueryHandler.GetQueryHandler(query);
+
+            return (TResult) queryHandler.Retrieve(query);
         }
     }
 }

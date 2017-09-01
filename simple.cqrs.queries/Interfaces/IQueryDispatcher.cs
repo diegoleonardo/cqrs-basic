@@ -2,7 +2,8 @@
 {
     public interface IQueryDispatcher
     {
-        IQueryResult Dispatch<TParameter>(TParameter query)
-            where TParameter : IQuery;
+        TResult Dispatch<TResult, TParameter>(TParameter query)
+            where TParameter : IQuery
+            where TResult : IQueryResult;
     }
 }

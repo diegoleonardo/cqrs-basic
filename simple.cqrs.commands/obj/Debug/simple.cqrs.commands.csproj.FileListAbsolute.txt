@@ -19,6 +19,8 @@ E:\Git\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.dll
 E:\Git\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.pdb
 C:\Lab\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.dll
 C:\Lab\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.commands.pdb
+C:\Lab\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.data.storage.dll
+C:\Lab\cqrs-basic\simple.cqrs.commands\bin\Debug\simple.cqrs.data.storage.pdb
 C:\Lab\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.csprojResolveAssemblyReference.cache
 C:\Lab\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.dll
 C:\Lab\cqrs-basic\simple.cqrs.commands\obj\Debug\simple.cqrs.commands.pdb

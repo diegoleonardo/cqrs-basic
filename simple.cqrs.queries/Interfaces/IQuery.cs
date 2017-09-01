@@ -1,7 +1,9 @@
-﻿namespace simple.cqrs.queries.Interfaces
+﻿using System;
+
+namespace simple.cqrs.queries.Interfaces
 {
     public interface IQuery
     {
-        string Identificador { get; set; }
+        string Identifier { get; set; }
     }
 }

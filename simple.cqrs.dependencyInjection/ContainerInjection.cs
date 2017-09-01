@@ -5,6 +5,7 @@ using simple.cqrs.commands.Implementation.Histories;
 using simple.cqrs.commands.Implementation.Logs;
 using simple.cqrs.commands.Implementation.Persons;
 using simple.cqrs.commands.Interfaces;
+using simple.cqrs.queries.Base;
 using simple.cqrs.queries.Implementation;
 using simple.cqrs.queries.Interfaces;
 
@@ -25,10 +26,10 @@ namespace simple.cqrs.dependencyInjection
             builder.RegisterType<EditPersonCommandHandler>().As<ICommandHandler>();
 
 
-            builder.RegisterType<Query>().As<IQuery>();
-            builder.RegisterType<QueryResult>().As<IQueryResult>();
+            builder.RegisterType<QueryParameter>().As<IQuery>();
+            builder.RegisterType<FindByIdQueryResult>().As<IQueryResult>();
 
-            builder.RegisterType<QueryHandler>().As<IQueryHandler<Query, QueryResult>>();
+            builder.RegisterType<PersonQueryHandler>().As<IQueryHandler<FindByIdQueryResult, QueryParameter>>();
 
             builder.RegisterType<QueryDispatcher>().As<IQueryDispatcher>();
 
