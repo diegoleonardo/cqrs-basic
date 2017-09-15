@@ -1,0 +1,33 @@
+﻿@model simple.cqrs.webApp.Models.AllPersonsViewModel
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Birthdate</th>
+        <th>Command</th>
+    </tr>
+
+@foreach (var item in Model.ReturnPersons()) {
+    <tr>
+        <td>@item.Firstname</td>
+        <td>@item.Lastname</td>
+        <td>@item.Birthdate</td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  personId=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { personId = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { personId = item.Id })
+        </td>
+    </tr>
+}
+
+</table>

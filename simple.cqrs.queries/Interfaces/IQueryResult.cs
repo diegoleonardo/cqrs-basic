@@ -2,5 +2,6 @@
 {
     public interface IQueryResult
     {
+        bool HasResult { get; set; }
     }
 }

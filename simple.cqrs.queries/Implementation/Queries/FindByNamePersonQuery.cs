@@ -1,12 +1,17 @@
-﻿using simple.cqrs.queries.Base;
+﻿using simple.cqrs.queries.Interfaces;
 
 namespace simple.cqrs.queries.Implementation
 {
-    public class FindPersonByNameParameter : QueryParameter
+    public class FindPersonByNameParameter : IQuery
     {
         public string Name { get; private set; }
 
-        public FindPersonByNameParameter (string name)
+        public string Identifier
+        {
+            get; set;
+        }
+
+        public FindPersonByNameParameter(string name)
         {
             Name = name;
         }

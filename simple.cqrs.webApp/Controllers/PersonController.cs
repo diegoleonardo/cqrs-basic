@@ -6,6 +6,8 @@ using simple.cqrs.webApp.Controllers.Base;
 using simple.cqrs.applicationService.Services;
 using simple.cqrs.queries.Implementation.QueryResults;
 using simple.cqrs.applicationService.DataTransferObjects;
+using simple.cqrs.queries.Implementation.Queries;
+using System.Collections.Generic;
 
 namespace simple.cqrs.webApp.Controllers
 {
@@ -13,7 +15,7 @@ namespace simple.cqrs.webApp.Controllers
     {
         private readonly IPersonAplicationService _personAppService;
 
-        public PersonController(IPersonAplicationService personAppService, IQueryDispatcher queryDispatcher):base(queryDispatcher)
+        public PersonController(IPersonAplicationService personAppService, IQueryDispatcher queryDispatcher) : base(queryDispatcher)
         {
             _personAppService = personAppService;
         }
@@ -33,7 +35,7 @@ namespace simple.cqrs.webApp.Controllers
         public ActionResult Get(int id)
         {
             var query = new FindPersonByIdQueryParameter(id.ToString());
-            
+
             var person = _queryDispatcher.Dispatch<FindByIdQueryResult, FindPersonByIdQueryParameter>(query);
 
             return Json(new { success = true, result = person }, JsonRequestBehavior.AllowGet);
@@ -42,9 +44,9 @@ namespace simple.cqrs.webApp.Controllers
         [HttpGet]
         public ActionResult FindByNome(string nome)
         {
-            var query = new FindPersonByNameParameter (nome);
+            var query = new FindPersonByNameParameter(nome);
 
-            var person = _queryDispatcher.Dispatch<FindByNamePersonQueryResult, FindPersonByNameParameter >(query);
+            var person = _queryDispatcher.Dispatch<FindByNamePersonQueryResult, FindPersonByNameParameter>(query);
 
             return Json(new { success = true, result = person }, JsonRequestBehavior.AllowGet);
         }
@@ -63,9 +65,14 @@ namespace simple.cqrs.webApp.Controllers
         {
             var query = new FindPersonByIdQueryParameter(personId.ToString());
 
-            var queryResult = _queryDispatcher.Dispatch<FindByIdQueryResult, IQuery>(query);
+            PersonViewModel person = new PersonViewModel();
 
-            PersonViewModel person = (PersonViewModel) queryResult;
+            var queryResult = _queryDispatcher.Dispatch<FindByIdQueryResult, FindPersonByIdQueryParameter>(query);
+
+            if (queryResult.HasResult)
+            {
+                person = (PersonViewModel)queryResult;
+            }
 
             return View(person);
         }
@@ -78,6 +85,23 @@ namespace simple.cqrs.webApp.Controllers
             _personAppService.Edit(personDTO);
 
             return View();
+        }
+
+        public ActionResult List()
+        {
+            var param = new FindAllPersonsParam();
+            var queryResult = _queryDispatcher.Dispatch<FindAllPersonsQueryResult, FindAllPersonsParam>(param);
+            var personList = new List<PersonViewModel>();
+
+            foreach (var person in queryResult.personList)
+            {
+                var personConverted = (PersonViewModel) person;
+                personList.Add(personConverted);
+            }
+
+            var model = new AllPersonsViewModel(personList);
+
+            return View(model);
         }
     }
 }

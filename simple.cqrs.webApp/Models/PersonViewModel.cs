@@ -1,4 +1,5 @@
 ﻿using simple.cqrs.applicationService.DataTransferObjects;
+using simple.cqrs.queries;
 using simple.cqrs.queries.Implementation;
 using System;
 
@@ -19,6 +20,17 @@ namespace simple.cqrs.webApp.Models
                 Firstname = person.Firstname,
                 Lastname = person.Lastname,
                 Birthdate = person.Birthdate
+            };
+        }
+
+        public static explicit operator PersonViewModel(PersonQueryDTO personQuery)
+        {
+            return new PersonViewModel()
+            {
+                Id = personQuery.Id,
+                Firstname = personQuery.Firstname,
+                Lastname = personQuery.Lastname,
+                Birthdate = personQuery.Birthdate
             };
         }
 

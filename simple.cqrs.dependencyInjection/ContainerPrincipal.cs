@@ -21,7 +21,7 @@ namespace simple.cqrs.dependencyInjection
             
             _kernel.Bind<IQuery>().To<QueryParameter>();
             _kernel.Bind<IQueryResult>().To<FindByIdQueryResult>();
-            _kernel.Bind<IQueryHandler<IQueryResult, IQuery>>().To<PersonQueryHandler>();
+
             _kernel.Bind<IQueryDispatcher>().To<QueryDispatcher>();
 
             //_kernel.Bind<ICommandHandler<HistoricalPersonCommand>>().To<HistoricalPersonCommandHandler>();

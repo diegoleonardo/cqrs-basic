@@ -19,7 +19,7 @@ namespace simple.cqrs.dependencyInjection
             var lifeStyle = Lifestyle.Scoped;
 
             Container.Register<IQuery, QueryParameter>(lifeStyle);
-            Container.Register<IQueryHandler<IQueryResult, IQuery>, PersonQueryHandler>(lifeStyle);
+
             Container.Register<IQueryDispatcher, QueryDispatcher>(lifeStyle);
 
             Container.Register<ICommandDispatcher, CommandDispatcher>(lifeStyle);

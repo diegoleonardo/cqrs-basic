@@ -9,11 +9,6 @@ namespace simple.cqrs.queries.Implementation
         {
             IQueryHandler<IQueryResult, IQuery> queryHandler = null;
 
-            if (query.GetType() == typeof(FindPersonByIdQueryParameter))
-                queryHandler = new PersonQueryHandler();
-            else if(query.GetType() == typeof(FindPersonByNameParameter ))
-                queryHandler = new FindByNameQueryHandler();
-
             return queryHandler;
         }
     }

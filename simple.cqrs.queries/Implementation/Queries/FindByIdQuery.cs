@@ -1,12 +1,14 @@
-﻿using simple.cqrs.queries.Base;
+﻿using simple.cqrs.queries.Interfaces;
 
 namespace simple.cqrs.queries.Implementation
 {
-    public class FindPersonByIdQueryParameter: QueryParameter
+    public class FindPersonByIdQueryParameter: IQuery
     {
-        public FindPersonByIdQueryParameter(string identificador)
+        public FindPersonByIdQueryParameter(string identifier)
         {
-            Identifier = identificador;
+            Identifier = identifier;
         }
+
+        public string Identifier{ get; set; }
     }
 }
